@@ -1,0 +1,23 @@
+---
+layout: docs
+---
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+	<div class="wrapper">
+		<section>
+			<div id="title">
+				<h1><a href="{{site.baseurl}}">{{ site.name }}</a></h1>
+				<p>Documentation</p>
+				<hr>
+			</div>
+			{{ content }}
+
+		</section>
+		<footer class="footer">
+			{% include footer.html %}
+		</footer>
+	</div>
+</body>
+</html>
