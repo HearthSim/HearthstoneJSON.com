@@ -13,6 +13,9 @@ The `/v1/latest/` endpoint redirects (302) to whichever build is the latest one.
 All files are automatically converted from the game files, made available in the
 [hs-data repository](https://github.com/HearthSim/hs-data/).
 
+### Changelog
+
+{% include changelog.md %}
 
 ### Card objects
 
