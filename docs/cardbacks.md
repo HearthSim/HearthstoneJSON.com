@@ -3,6 +3,12 @@ layout: docs
 ---
 ## Card Backs ([cardbacks.json](https://api.hearthstonejson.com/v1/latest/enUS/cardbacks.json))
 
+### Example
+
+{% include example-cardback.md %}
+
+### Fields
+
 Card Back objects all have the following attributes:
 
 * `id` (int): Unique ID.

@@ -2,7 +2,6 @@
 layout: docs
 ---
 ## Cards ([cards.json](https://api.hearthstonejson.com/v1/latest/enUS/cards.json), [cards.collectible.json](https://api.hearthstonejson.com/v1/latest/enUS/cards.collectible.json))
-
 The `cards.json` file contains a list of card objects and includes every single
 card in the game. Note that in Hearthstone, everything is a card, even Heroes,
 Hero Powers and buffs (Enchantments).
@@ -10,6 +9,12 @@ Hero Powers and buffs (Enchantments).
 `cards.collectible.json` is a restricted set which contains only collectible
 cards (cards which will show up in your collection and the base heroes). Please
 use this set if you do not need non-collectible cards in your app.
+
+### Example
+
+{% include example-card.md %}
+
+### Fields
 
 A card is an array of attributes. With noted exceptions, fields are only shown
 if they do not evaluate to `0` or an empty string.
