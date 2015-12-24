@@ -70,8 +70,8 @@ The following game tags are used in this field:
 
   `ADJACENT_BUFF`, `AURA`, `BATTLECRY`, `CHARGE`, `COMBO`, `DEATHRATTLE`,
   `DIVINE_SHIELD`, `ENRAGED`, `FORGETFUL`, `FREEZE`, `INSPIRE`, `MORPH`,
-  `OVERLOAD`, `POISONOUS`, `SECRET`, `SILENCE`, `STEALTH`, `SPELLPOWER`
-  `TAG_ONE_TURN_EFFECT`, `TAUNT`, `TREASURE`, `WINDFURY`, `ImmuneToSpellpower`
+  `OVERLOAD`, `POISONOUS`, `SECRET`, `SILENCE`, `STEALTH`, `SPELLPOWER`,
+  `TAG_ONE_TURN_EFFECT`, `TAUNT`, `TREASURE`, `WINDFURY`, `ImmuneToSpellpower`,
   `InvisibleDeathrattle`
 
 Notes:
