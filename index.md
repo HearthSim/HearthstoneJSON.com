@@ -19,7 +19,7 @@ All files are automatically converted from the game files, made available in the
 
 ### Card objects
 
-[See full card back documentation](docs/cards.html).
+[See full card documentation](docs/cards.html).
 
 Example card:
 
