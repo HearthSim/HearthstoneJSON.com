@@ -11,7 +11,7 @@ Changes since legacy API:
   - CardSet separation has been removed as it was largely unused
   - Tags are not localized anymore (mostly this just means uppercased)
   - Created separate "collectible" set
-  - Added individual "set" property
+  - Added individual `set` and `targetingArrowText properties
   - Added some more mechanics (forgetful, treasure...)
   - Added entourage property
   - Added playRequirements property
