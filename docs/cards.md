@@ -53,6 +53,8 @@ The following additional attributes are available:
 * `health` (int) is the health value of the card. Always shown for minions and
   heroes.
 * `durability` (int) is the durability value of weapons. Always shown for weapons.
+* `dust` (list[int]) is a list of dust costs for the card in the following order:
+  crafting normal, crafting golden, disenchant normal, disenchant golden.
 
 
 ### Enums
