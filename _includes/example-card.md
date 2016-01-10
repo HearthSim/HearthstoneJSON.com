@@ -2,21 +2,28 @@
 
 ```json
 {
-    "rarity": "LEGENDARY",
-    "cost": 5,
-    "text": "<b>Charge</b>. <b>Battlecry:</b> Summon two 1/1 Whelps for your opponent.",
-    "health": 2,
-    "faction": "ALLIANCE",
-    "id": "EX1_116",
-    "mechanics": [
-        "BATTLECRY",
-        "CHARGE"
-    ],
-    "set": "EXPERT1",
-    "name": "Leeroy Jenkins",
-    "type": "MINION",
-    "collectible": true,
-    "flavor": "At least he has Angry Chicken.",
-    "attack": 6
+	"id": "EX1_116",
+	"name": "Leeroy Jenkins",
+	"text": "<b>Charge</b>. <b>Battlecry:</b> Summon two 1/1 Whelps for your opponent.",
+	"rarity": "LEGENDARY",
+	"type": "MINION",
+	"cost": 5,
+	"attack": 6
+	"health": 2,
+	"collectible": true,
+	"set": "EXPERT1",
+	"faction": "ALLIANCE",
+	"artist": "Gabe from Penny Arcade",
+	"flavor": "At least he has Angry Chicken.",
+	"mechanics": [
+		"BATTLECRY",
+		"CHARGE"
+	],
+	"dust": [
+		1600,
+		3200,
+		400,
+		1600
+	],
 }
 ```
