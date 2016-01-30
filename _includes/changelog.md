@@ -4,7 +4,7 @@ Changes since legacy API:
   - New website style and theme!
   - API now has its own subdomain and is served with HTTPS
   - API is now versioned (/v1/)
-  - Separate output for each build. /v1/latest/ will always give you the latest build. (I'll generate older builds later)
+  - Separate output for each build. /v1/latest/ will always give you the latest build.
   - Locales are now generated into their own directory
   - Zip support has been removed in favour of server compression
 - Cards:
