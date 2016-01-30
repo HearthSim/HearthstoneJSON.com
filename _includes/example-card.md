@@ -8,7 +8,7 @@
 	"rarity": "LEGENDARY",
 	"type": "MINION",
 	"cost": 5,
-	"attack": 6
+	"attack": 6,
 	"health": 2,
 	"collectible": true,
 	"set": "EXPERT1",
