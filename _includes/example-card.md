@@ -1,6 +1,5 @@
 <img src="{{ site.baseurl }}/images/leeroy.png" style="float: right;" alt="Leeroy Jenkins"/>
-
-```json
+{% highlight json %}
 {
 	"id": "EX1_116",
 	"name": "Leeroy Jenkins",
@@ -26,4 +25,4 @@
 		1600
 	]
 }
-```
+{% endhighlight %}
