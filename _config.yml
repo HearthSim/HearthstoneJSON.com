@@ -3,7 +3,6 @@ description: JSON files for Hearthstone
 logo: images/logo.png
 
 url: https://hearthstonejson.com
-baseurl: "/hearthstonejson"
 
 markdown: kramdown
 highlighter: rouge
