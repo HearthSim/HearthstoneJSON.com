@@ -13,11 +13,15 @@ The `/v1/latest/` endpoint redirects (302) to whichever build is the latest one.
 All files are automatically converted from the game files, made available in the
 [hs-data repository](https://github.com/HearthSim/hs-data/).
 
-### Changelog
+----
+
+## Changelog
 
 {% include changelog.md %}
 
-### Card objects
+----
+
+## Card objects
 
 [See full card documentation](docs/cards.html).
 
@@ -27,7 +31,7 @@ Example card:
 
 ----
 
-### Card Back objects
+## Card Back objects
 
 [See full card back documentation](docs/cardbacks.html).
 
@@ -37,7 +41,7 @@ Example card back:
 
 ----
 
-### Support
+## Support
 
 HearthstoneJSON is a [HearthSim](http://hearthsim.info/) project and is
 available [on GitHub](https://github.com/hearthsim/hearthstonejson).
