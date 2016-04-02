@@ -5,15 +5,10 @@ logo: images/logo.png
 url: https://hearthstonejson.com
 
 markdown: kramdown
-highlighter: rouge
 
 redcarpet:
   # Use Github Flavored Markdown (including triple backticks)
   input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-  # Reuse pygments syntax css class
-    css_class: "highlight"
 
 sass:
   style: :compressed
