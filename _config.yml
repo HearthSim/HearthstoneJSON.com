@@ -2,7 +2,7 @@ name: HearthstoneJSON
 description: JSON files for Hearthstone
 logo: images/logo.png
 
-url: http://hearthstonejson.com
+url: https://hearthstonejson.com
 baseurl: "/hearthstonejson"
 
 markdown: redcarpet
