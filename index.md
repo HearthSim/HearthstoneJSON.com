@@ -43,5 +43,5 @@ Example card back:
 
 ## Support
 
-HearthstoneJSON is a [HearthSim](http://hearthsim.info/) project and is
-available [on GitHub](https://github.com/hearthsim/hearthstonejson).
+HearthstoneJSON is a [HearthSim](https://hearthsim.info/) project and is
+available [on GitHub](https://github.com/HearthSim/HearthstoneJSON/).
