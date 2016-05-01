@@ -15,3 +15,6 @@ sass:
 
 gems:
   - jekyll-sitemap
+
+exclude:
+  - LICENSE
