@@ -1,4 +1,20 @@
-Changes since legacy API:
+#### Patch 7.0.0.15590:
+
+The game files have greatly changed for the Gadgetzan patch.
+Some of the data may have changed in unexpected ways.
+
+- New property: `multiClassGroup`. Currently, this can be `GRIMY_GOONS`,
+  `JADE_LOTUS` or `KABAL`.
+- New property: `classes`. This is a list of classes, which is only included
+  when the card is available for multiple classes. Note that the `playerClass`
+  is usually `NEUTRAL` for multi-class cards.
+- New property: `collectionText`. Some cards, most notably Jade Golem cards,
+  have multiple card texts: A generic one (for the collection) and a formatted
+  version, with `{}` placeholders. The `collectionText` property is the generic
+  version of the description.
+
+
+#### Changes since legacy API
 
 - Website:
   - New website style and theme!
