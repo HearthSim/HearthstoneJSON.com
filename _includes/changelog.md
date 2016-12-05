@@ -12,6 +12,7 @@ Some of the data may have changed in unexpected ways.
   have multiple card texts: A generic one (for the collection) and a formatted
   version, with `{}` placeholders. The `collectionText` property is the generic
   version of the description.
+- The `textInPlay` property is no longer supported as it is no longer used.
 
 
 #### Changes since legacy API

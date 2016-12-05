@@ -41,8 +41,8 @@ The following attributes are localized strings:
 
   `name`, `text` (card text), `flavor` (flavor text), `howToEarn` (how to earn
   the card; eg. reward, craft), `howToEarnGolden` (how to earn the golden
-  version of the card), `targetingArrowText` (the text when targeting something
-  with the card)  and `textInPlay` (old field, now unused by Hearthstone)
+  version of the card) and `targetingArrowText` (the text when targeting
+  something with the card)
 
 The following additional attributes are available:
 
