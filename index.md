@@ -31,16 +31,6 @@ Example card:
 
 ----
 
-## Card Back objects
-
-[See full card back documentation](docs/cardbacks.html).
-
-Example card back:
-
-{% include example-cardback.md %}
-
-----
-
 ## Support
 
 HearthstoneJSON is a [HearthSim](https://hearthsim.info/) project and is

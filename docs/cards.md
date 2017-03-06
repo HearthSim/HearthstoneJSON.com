@@ -53,8 +53,8 @@ The following additional attributes are available:
 * `health` (int) is the health value of the card. Always shown for minions and
   heroes.
 * `durability` (int) is the durability value of weapons. Always shown for weapons.
-* `dust` (list[int]) is a list of dust costs for the card in the following order:
-  crafting normal, crafting golden, disenchant normal, disenchant golden.
+* `hideStats` (bool) determines whether the card's stats (cost, atk, health) are
+  supposed to be hidden.
 
 
 ### Enums
@@ -64,25 +64,33 @@ available as enumerations. The full list of Hearthstone enums is available in
 [python-hearthstone - enums.py](https://github.com/HearthSim/python-hearthstone/blob/master/hearthstone/enums.py).
 
 
-### Mechanics
+### Tags and referenced tags
 
 The `mechanics` attribute contains a sorted array of `GameTag` boolean enum
 string representations which are set on the card.
 
 The following game tags are used in this field:
 
-  `ADJACENT_BUFF`, `AURA`, `BATTLECRY`, `CHARGE`, `COMBO`, `DEATHRATTLE`,
-  `DIVINE_SHIELD`, `ENRAGED`, `FORGETFUL`, `FREEZE`, `INSPIRE`, `MORPH`,
-  `OVERLOAD`, `POISONOUS`, `SECRET`, `SILENCE`, `STEALTH`, `SPELLPOWER`,
-  `TAG_ONE_TURN_EFFECT`, `TAUNT`, `TREASURE`, `WINDFURY`, `ImmuneToSpellpower`,
-  `InvisibleDeathrattle`
+  `ADJACENT_BUFF`, `AI_MUST_PLAY`, `AURA`, `BATTLECRY`, `CHARGE`, `CHOOSE_ONE`,
+  `COMBO`, `COUNTER`, `DEATHRATTLE`, `DISCOVER`, `DIVINE_SHIELD`, `ENRAGED`,
+  `FORGETFUL`, `FREEZE`, `IMMUNE`, `INSPIRE`, `JADE_GOLEM`, `MORPH`, `OVERLOAD`,
+  `POISONOUS`, `RITUAL`, `SECRET`, `SILENCE`, `STEALTH`, `SPELLPOWER`,
+  `TAG_ONE_TURN_EFFECT`, `TAUNT`, `TOPDECK`, `UNTOUCHABLE`, `WINDFURY`,
+  `ImmuneToSpellpower`, `InvisibleDeathrattle`
 
 Notes:
 
-* The `TREASURE` game tag corresponds to the **Discover** mechanic.
 * `ImmuneToSpellpower` is set on cards which do not increase their damage
   with spell damage like other cards (such as Arcane Missiles).
 * `InvisibleDeathrattle` is an internal tag, used mostly in boss cards.
+* `AI_MUST_PLAY` is set on AI hero powers which are auto-cast.
+* `AUTOATTACK` is a mechanic used in the Karazhan Chess scenario.
+* `COUNTER` is... essentially just Counterspell.
+* `EVIL_GLOW` is set on cards which glow red while in the hand.
+* `FORGETFUL` corresponds to "50% chance to attack the wrong target".
+* `RITUAL` corresponds to cards which buff C'Thun.
+* `UNTOUCHABLE` is used by minions which "do not count as minions".
+* `TOPDECK` is set on cards which are revealed to the opponent when drawn.
 
 
 ### Play Requirements

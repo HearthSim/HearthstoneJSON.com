@@ -1,3 +1,15 @@
+#### Patch 7.1.0.17720:
+
+- `playerClass` has been renamed `cardClass`. Both properties are still
+  available, but the former will be removed in an upcoming patch.
+- The cardback API is no longer supported, as almost nobody was using it.
+- Support for the `dust` property has been dropped as it is not reliable.
+- New property: `referencedTags`. This works exactly like `mechanics`,
+  except that it contains tags which are *referenced* rather than directly
+  set on the card (for example: Mad Scientist *references* `SECRET`).
+- `TREASURE` has been renamed to `DISCOVER`.
+- New property: `hideStats` (boolean)
+
 #### Patch 7.0.0.15590:
 
 The game files have greatly changed for the Gadgetzan patch.
