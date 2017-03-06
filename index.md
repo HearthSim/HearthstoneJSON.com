@@ -15,12 +15,6 @@ All files are automatically converted from the game files, made available in the
 
 ----
 
-## Changelog
-
-{% include changelog.md %}
-
-----
-
 ## Card objects
 
 [See full card documentation](docs/cards.html).
@@ -28,6 +22,12 @@ All files are automatically converted from the game files, made available in the
 Example card:
 
 {% include example-card.md %}
+
+----
+
+## Changelog
+
+{% include changelog.md %}
 
 ----
 
