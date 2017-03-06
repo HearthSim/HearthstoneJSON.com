@@ -44,6 +44,6 @@ Some of the data may have changed in unexpected ways.
   - Added some more mechanics (forgetful, treasure...)
   - Added `entourage` property
   - Added `playRequirements` property
-  - Added `dust property
+  - Added `dust` property
 - Card backs:
   - Added more properties from the DBF
