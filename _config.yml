@@ -6,15 +6,14 @@ url: https://hearthstonejson.com
 
 markdown: kramdown
 
-redcarpet:
-  # Use Github Flavored Markdown (including triple backticks)
+kramdown:
   input: GFM
 
 sass:
   style: :compressed
 
-gems:
-  - jekyll-sitemap
-
 exclude:
+  - CNAME
   - LICENSE
+  - README.md
+  - vendor/
