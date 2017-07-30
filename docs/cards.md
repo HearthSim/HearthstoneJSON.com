@@ -32,7 +32,7 @@ of enums (as described in the Enums section below):
 * `set` (`CardSet` enum). Also determines the card's watermark. The collectible
   sets are `CORE` (basic, free cards), `EXPERT1` (expert cards), `NAXX`, `GVG`,
   `BRM`, `TGT`, `LOE`, `PROMO` and `REWARD`.
-* `playerClass` (`CardClass` enum). `DEATHKNIGHT` is unused.
+* `cardClass` (`CardClass` enum, previously named `playerClass`). `DEATHKNIGHT` is unused.
 * `type` (`CardType` enum). The only used types are `HERO`, `MINION`, `SPELL`,
   `ENCHANTMENT` (buff), `WEAPON` and `HERO_POWER`.
 * `race` (`Race` enum). **Usually** only available on minions.
@@ -71,12 +71,13 @@ string representations which are set on the card.
 
 The following game tags are used in this field:
 
-  `ADJACENT_BUFF`, `AI_MUST_PLAY`, `AURA`, `BATTLECRY`, `CHARGE`, `CHOOSE_ONE`,
-  `COMBO`, `COUNTER`, `DEATHRATTLE`, `DISCOVER`, `DIVINE_SHIELD`, `ENRAGED`,
-  `FORGETFUL`, `FREEZE`, `IMMUNE`, `INSPIRE`, `JADE_GOLEM`, `MORPH`, `OVERLOAD`,
-  `POISONOUS`, `RITUAL`, `SECRET`, `SILENCE`, `STEALTH`, `SPELLPOWER`,
-  `TAG_ONE_TURN_EFFECT`, `TAUNT`, `TOPDECK`, `UNTOUCHABLE`, `WINDFURY`,
-  `ImmuneToSpellpower`, `InvisibleDeathrattle`
+  `ADJACENT_BUFF`, `AI_MUST_PLAY`, `APPEAR_FUNCTIONALLY_DEAD`, `ADAPT`, `AURA`,
+  `BATTLECRY`, `CANT_ATTACK`, `CANT_BE_TARGETED_BY_ABILITIES`, `CANT_BE_TARGETED_BY_HERO_POWERS`,
+  `CHARGE`, `CHOOSE_ONE`, `COMBO`, `COUNTER`, `DEATHRATTLE`, `DISCOVER`,
+  `DIVINE_SHIELD`, `ENRAGED`, `EVIL_GLOW`, `FORGETFUL`, `FREEZE`, `IMMUNE`, `INSPIRE`,
+  `JADE_GOLEM`, `MORPH`, `POISONOUS`, `QUEST`, `RECEIVES_DOUBLE_SPELLDAMAGE_BONUS`,
+  `RITUAL`, `SECRET`, `SILENCE`, `STEALTH`, `TAG_ONE_TURN_EFFECT`, `TAUNT`, `TOPDECK`,
+  `UNTOUCHABLE`, `WINDFURY`, `ImmuneToSpellpower`, `InvisibleDeathrattle`
 
 Notes:
 
@@ -91,6 +92,7 @@ Notes:
 * `RITUAL` corresponds to cards which buff C'Thun.
 * `UNTOUCHABLE` is used by minions which "do not count as minions".
 * `TOPDECK` is set on cards which are revealed to the opponent when drawn.
+* For overload and spellpower, look at `overload` and `spellDamage` properties.
 
 
 ### Play Requirements
