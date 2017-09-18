@@ -53,6 +53,7 @@ The following additional attributes are available:
 * `health` (int) is the health value of the card. Always shown for minions and
   heroes.
 * `durability` (int) is the durability value of weapons. Always shown for weapons.
+* `armor` (int) is the armor value of heroes.
 * `hideStats` (bool) determines whether the card's stats (cost, atk, health) are
   supposed to be hidden.
 
