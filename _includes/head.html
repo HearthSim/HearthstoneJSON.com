@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+	<title>{% if page.title %}{{ page.title }} – {{ site.name }} {% else %}{{ site.name }}{% endif %}</title>
 	<link rel="stylesheet" href="/styles/style.css">
 	<link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">

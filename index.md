@@ -1,5 +1,6 @@
 ---
 layout: default
+title: An API for Hearthstone
 ---
 
 The API is available at [api.hearthstonejson.com/v1/](https://api.hearthstonejson.com/v1/)
