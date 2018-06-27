@@ -1,3 +1,7 @@
+#### 2018-06-27
+
+The [card art and render API](/docs/images.html) is now officially available!
+
 #### Patch 7.1.0.17720:
 
 - `playerClass` has been renamed `cardClass`. Both properties are still

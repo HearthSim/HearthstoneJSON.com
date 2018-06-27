@@ -26,6 +26,12 @@ Example card:
 
 ----
 
+## Card art
+
+[See full card art and render documentation](docs/images.html)
+
+----
+
 ## Changelog
 
 {% include changelog.md %}
