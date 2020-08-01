@@ -10,7 +10,7 @@ HearthstoneJSON includes a full image API for all the cards in the game.
 You are free to use this API without restrictions, but we ask that you
 avoid direct embedding on high-traffic websites, and instead re-host the
 images. You may also generate them yourself with the game files; the scripts
-[are available here](https://github.com/HearthSim/HearthstoneJSON).
+[are available here](https://github.com/HearthSim/HearthstoneJSON.com).
 
 If you intend to use HearthstoneJSON for commercial purposes, please contact us
 at <contact@hearthsim.net>, we'd love to hear from you.
