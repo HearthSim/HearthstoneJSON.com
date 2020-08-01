@@ -41,4 +41,4 @@ Example card:
 ## Support
 
 HearthstoneJSON is a [HearthSim](https://hearthsim.info/) project and is
-available [on GitHub](https://github.com/HearthSim/HearthstoneJSON/).
+available [on GitHub](https://github.com/HearthSim/HearthstoneJSON.com/).
